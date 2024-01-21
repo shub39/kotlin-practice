@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
 
         btn.setOnClickListener(){
-            var text = name.text
+            val text = name.text
 
             Toast.makeText(this,
                 "Hello "+ text,
