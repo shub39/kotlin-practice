@@ -15,35 +15,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val name : EditText = findViewById(R.id.namebox)
-        val btn = findViewById<Button>(R.id.toastbtn)
-        val sins : TextView = findViewById(R.id.textView3)
-        val btn2 = findViewById<Button>(R.id.button2)
+        val input1 : EditText = findViewById(R.id.input)
+        val btn : Button = findViewById(R.id.btn1)
+        val result1 : TextView = findViewById(R.id.text1)
 
-        btn.setOnClickListener() {
-            val text = name.text
-            val sons = sins.text
+        btn.setOnClickListener(){
+            val kilos:Double = input1.text.toString().toDouble()
 
-            Toast.makeText(
-                this,
-                "Hello " + text + ", You have committed " + sons + " Sins.",
-                Toast.LENGTH_LONG
-            ).show()
-        }
-
-        btn2.setOnClickListener(){
-            sins.setText(""+increasecounter())
-
+            result1.setText(""+convert(kilos))
         }
 
     }
 
-    fun increasecounter(): Int{
-        counter++
-        return counter
-
+    fun convert(kilos:Double):Double{
+        var pounds = kilos * 2.2
+        return pounds
     }
-
 
 }
 
