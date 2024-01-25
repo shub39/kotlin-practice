@@ -1,5 +1,6 @@
 package com.example.veiwsapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -15,23 +16,21 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val input1 : EditText = findViewById(R.id.input)
-        val btn : Button = findViewById(R.id.btn1)
-        val result1 : TextView = findViewById(R.id.text1)
+        val name : TextView = findViewById(R.id.input)
+        val luckbtn : Button = findViewById(R.id.btn1)
 
-        btn.setOnClickListener(){
-            val kilos:Double = input1.text.toString().toDouble()
+        luckbtn.setOnClickListener(){
 
-            result1.setText(""+convert(kilos))
+            val name = name.text
+            var i = Intent(this, MainActivity2::class.java)
+
+            i.putExtra("name", name)
+            startActivity(i)
+
         }
 
-    }
 
-    fun convert(kilos:Double):Double{
-        var pounds = kilos * 2.2
-        return pounds
     }
-
 }
 
 

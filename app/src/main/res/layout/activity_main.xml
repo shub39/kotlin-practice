@@ -9,11 +9,11 @@
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="112dp"
-        android:layout_height="50dp"
+        android:layout_width="217dp"
+        android:layout_height="66dp"
         android:backgroundTint="@color/material_dynamic_primary80"
         android:fontFamily="@font/montserrat_medium"
-        android:text="Convert"
+        android:text="Lets Find Out!!"
         android:textAlignment="center"
         android:textColor="@color/material_dynamic_primary10"
         android:textStyle="bold"
@@ -22,23 +22,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input"
-        app:layout_constraintVertical_bias="0.33" />
-
-    <TextView
-        android:id="@+id/text1"
-        android:layout_width="211dp"
-        android:layout_height="81dp"
-        android:layout_marginTop="92dp"
-        android:fontFamily="@font/montserrat_medium"
-        android:text="0"
-        android:textAlignment="center"
-        android:textColor="@color/material_dynamic_primary80"
-        android:textSize="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn1"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.529" />
 
     <EditText
         android:id="@+id/input"
@@ -59,7 +43,7 @@
         android:layout_width="356dp"
         android:layout_height="59dp"
         android:fontFamily="@font/montserrat_medium"
-        android:text="Convert Kgs to Pounds"
+        android:text="Lucky Number App"
         android:textAlignment="center"
         android:textColor="@color/material_dynamic_primary80"
         android:textSize="30dp"
@@ -68,4 +52,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.53" />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_primary80"
+        android:fontFamily="@font/montserrat_medium"
+        android:layout_width="255dp"
+        android:layout_height="34dp"
+        android:text="Enter Your Name: "
+        app:layout_constraintBottom_toTopOf="@+id/input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
 </androidx.constraintlayout.widget.ConstraintLayout>
