@@ -65,4 +65,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="128dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:gravity="center"
+        android:text=" Made by \n Shubham "
+        android:textColor="@color/material_dynamic_primary80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1"
+        app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
