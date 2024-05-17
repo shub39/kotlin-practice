@@ -7,4 +7,4 @@
 
 </div>
 
-This is a repo for my practice and future reference. Most of them are project assignments from [here](https://developer.android.com/courses). The branches have the different apps I have made that you can check out using android studio (I don't know how to build the signed apks yet 🫠)
+This is a repo for my practice and future reference. Most of them are project assignments from [here](https://developer.android.com/courses). You can check out using android studio (I don't know how to build the signed apks yet 🫠)
