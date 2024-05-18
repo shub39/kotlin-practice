@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Art Viewer</string>
+
+    <string name="name_1">Monalisa</string>
+    <string name="artist_1">Leonardo da Vinci</string>
+    <string name="year_1">1503</string>
+
+    <string name="name_2">Madame X</string>"
+    <string name="artist_2">John Singer Sargent</string>"
+    <string name="year_2">1884</string>
+
+    <string name="name_3">The Blue Boy</string>"
+    <string name="artist_3">Thomas Gainsborough</string>"
+    <string name="year_3">1930</string>
+
+    <string name="name_4">American Gothic</string>"
+    <string name="artist_4">Grant Wood</string>"
+    <string name="year_4">1907</string>
+
+    <string name="name_5">Adele Bloch Bauer I</string>""
+    <string name="artist_5">Gustav Klimt</string>
+    <string name="year_5">1907</string>
+
+    <string name="name_6">The Arnolfini Portrait</string>
+    <string name="artist_6">Pierre-Auguste de France</string>
+    <string name="year_6">1434</string>
+
+</resources>
