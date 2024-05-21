@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Coins</string>
+    <string name="dandi">75th Anniversary Dandi March</string>
+    <string name="abul">125 Birth Anniversary of Maulana Abul Kalam Azad</string>
+    <string name="archive">60th Anniversary of the Kolkata Mint</string>
+    <string name="aviation">100 Years of Civil Aviation</string>
+    <string name="basaveshwara">Mahatma Basaveshwara</string>
+    <string name="bhagat">Birth Centenary of Shaheed Bhagat Singh</string>
+    <string name="braille">Louis Braille</string>
+    <string name="brihadeswar">1000th Anniversary of the Temple of Thanjavur</string>
+    <string name="icmr">100th Anniversary of Indian Council of Medical Research</string>
+    <string name="tax">150th Anniversary of the Income Tax Department</string>
+    <string name="integration">National Integration</string>
+    <string name="jagath">Narayana Gurudev</string>
+    <string name="kamaraj">K. Kamaraj</string>
+    <string name="madan">150th Anniversary of Madan Mohan Malaviya\'s Birth</string>
+    <string name="naoroji">Dadabhai Naoroji</string>
+    <string name="nehru">125th Birth Anniversary of Jawaharlal Nehru</string>
+    <string name="ongc">50th Anniversary of the ONGC (Oil and Natural Gas Corporation)</string>
+    <string name="parliament">60th Anniversary of Indian Parliament</string>
+    <string name="perarignar">100th Birth Anniversary of Perarignar Anna Durai</string>
+    <string name="rajendra">Dr. Rajendra Prasad 125th birth anniversary</string>
+    <string name="rbi">75th Anniversary of the Reserve Bank of India</string>
+    <string name="sardar">Sardar Vallabhbhai Patel</string>
+    <string name="tagore">150th Anniversary of Birth of Rabindranath Tagore</string>
+    <string name="tulsi">Acharya Tulsi Birth Centenary</string>
+    <string name="yoga">International Day of Yoga</string>
+</resources>
